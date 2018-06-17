@@ -10,7 +10,7 @@ resource "aws_instance" "my-test-instance" {
   security_groups = [
     "${aws_security_group.allow_ssh1.name}",
     "${aws_security_group.allow_outbound1.name}",
-    "${aws_security_group.allow_http8080.name}",
+    "${aws_security_group.allow_http80.name}",
   ]
 }
 
