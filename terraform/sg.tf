@@ -23,7 +23,7 @@ resource "aws_security_group" "allow_outbound1" {
 }
 
 resource "aws_security_group" "allow_http8080" {
-  name        = "allow-http1"
+  name        = "allow-8080"
   description = "Allow SSH inbound traffic"
 
   ingress {
