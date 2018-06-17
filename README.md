@@ -9,7 +9,7 @@ Requirements
                                       
   2) Terraform installed, download from https://www.terraform.io/downloads.html, unzip and move to path (exmple: /bin)
   
-  3) git clone 
+  3) git clone https://github.com/test-m/m-tf.git
   
   4) go to terraform folder and run: terraform plan -out output
   5) terraform apply "output"
