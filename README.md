@@ -1,7 +1,7 @@
 TESTING 17 JUNE 2018
 
 Requirements
-  1) Access to create EC2 instances  - saml api - BEST PRACTICE,
+  1) Access to create EC2 instances  - saml api - BEST PRACTICE
                                           or
                                      - aws configure - end enter IAM credentials  - not secure, just for testing
                                           or
